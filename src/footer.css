@@ -1,0 +1,107 @@
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 30px ;
+    padding-left: 200px;
+    align-items: center;
+    background-color:#001f3f;
+    .left{
+        form{
+            background-color: white;
+            padding: 40px 30px;
+            h2{
+                font-size: 45px;
+                color: black;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            h5{
+                font-size: 18px;
+                color: #5A5A5A;
+                font-weight: 500;
+            }
+            .row{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+            }
+            label{
+                font-size: 15px;
+                font-weight: 500;
+                color: #5A5A5A;
+            }
+            input{
+                margin-top: 20px;
+                height: 40px;
+                width: 250px;
+                padding: 20px 10px;
+                border: 1px solid black;
+                text-decoration: none;
+            }
+            textarea{
+                margin-top: 20px;
+                padding: 20px 10px;
+                border: 1px solid black;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+    }
+    .right{
+        flex-direction: column;
+        width: 40%;
+        .down{
+            flex-direction: column;
+            margin-top: 30px;
+            .con{
+                width: 400px;
+                flex-direction: row;
+                display: flex;
+                margin-bottom: 20px;
+                gap: 50px;
+                .svg{
+                    height: 60px;
+                    width: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .sub{
+                    flex-direction: column;
+                    h4{
+                        color: #9C9894;
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+                    h2{
+                        color: white;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+.footer2{
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #0F172A;
+    .left{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .right{
+        color: #9C9894;
+        font-weight: 700;
+    }
+}
